@@ -1,0 +1,196 @@
+!EntityList
+Galactic Republic: !EntityName
+  Venator-class Star Destroyer: !EntityShip
+    ship_class: Star Destroyer
+    length_meters: 1137
+    manufacturer: Kuat Drive Yards
+    armament:
+      - Dual heavy turbolaser turrets
+      - Medium turbolaser cannons
+      - Point-defense laser cannons
+      - Proton torpedo launchers
+
+  Eta-2 Actis-class Interceptor: !EntityShip
+    ship_class: Starfighter
+    length_meters: 5.47
+    manufacturer: Kuat Systems Engineering
+    armament:
+      - Laser cannons
+      - Ion cannons
+
+  Consular-class Cruiser: !EntityShip
+    ship_class: Diplomatic Cruiser
+    length_meters: 115
+    manufacturer: Corellian Engineering Corporation
+    armament:
+      - Turbolaser turrets
+
+  LAAT/i Gunship: !EntityShip
+    ship_class: Gunship/Transport
+    length_meters: 17.4
+    manufacturer: Rothana Heavy Engineering
+    armament:
+      - Laser cannons
+      - Composite-beam turrets
+      - Missile launchers
+
+  Acclamator-class Assault Ship: !EntityShip
+    ship_class: Assault Ship
+    length_meters: 752
+    manufacturer: Rothana Heavy Engineering
+    armament:
+      - Turbolaser batteries
+      - Laser cannons
+      - Proton torpedo launchers
+
+Galactic Empire: !EntityName
+  Imperial I-class Star Destroyer: !EntityShip
+    ship_class: Star Destroyer
+    length_meters: 1600
+    manufacturer: Kuat Drive Yards
+    armament:
+      - Heavy turbolaser batteries
+      - Ion cannons
+      - Tractor beam projectors
+
+  TIE Fighter (TIE/ln): !EntityShip
+    ship_class: Starfighter
+    length_meters: 6.3
+    manufacturer: Sienar Fleet Systems
+    armament:
+      - Laser cannons
+
+  TIE Interceptor: !EntityShip
+    ship_class: Starfighter
+    length_meters: 9.6
+    manufacturer: Sienar Fleet Systems
+    armament:
+      - Laser cannons
+
+  Lambda-class T-4a Shuttle: !EntityShip
+    ship_class: Transport Shuttle
+    length_meters: 20
+    manufacturer: Sienar Fleet Systems / Cygnus Spaceworks
+    armament:
+      - Wing-mounted laser cannons
+      - Retractable twin blaster cannons
+
+  Executor-class Star Dreadnought: !EntityShip
+    ship_class: Super Star Destroyer
+    length_meters: 19000
+    manufacturer: Kuat Drive Yards
+    armament:
+      - Heavy turbolasers
+      - Ion cannons
+      - Tractor beam projectors
+
+Rebel Alliance: !EntityName
+  X-Wing (T-65B): !EntityShip
+    ship_class: Starfighter
+    length_meters: 12.5
+    manufacturer: Incom Corporation
+    armament:
+      - Laser cannons
+      - Proton torpedo launchers
+
+  Y-Wing (BTL-A4): !EntityShip
+    ship_class: Starfighter/Bomber
+    length_meters: 16
+    manufacturer: Koensayr Manufacturing
+    armament:
+      - Laser cannons
+      - Ion cannons
+      - Proton bombs
+
+  A-Wing (RZ-1): !EntityShip
+    ship_class: Interceptor
+    length_meters: 9.6
+    manufacturer: Alliance Underground Engineering
+    armament:
+      - Laser cannons
+      - Concussion missile launchers
+
+  B-Wing (A/SF-01): !EntityShip
+    ship_class: Assault Starfighter
+    length_meters: 16.9
+    manufacturer: Slayn & Korpil
+    armament:
+      - Ion cannons
+      - Laser cannons
+      - Proton torpedo launchers
+
+  Mon Calamari MC80 Star Cruiser: !EntityShip
+    ship_class: Capital Ship
+    length_meters: 1200
+    manufacturer: Mon Calamari Shipyards
+    armament:
+      - Turbolasers
+      - Ion cannons
+      - Deflector shield generators
+
+Trade Federation: !EntityName
+  Lucrehulk-class Battleship: !EntityShip
+    ship_class: Battleship/Carrier
+    length_meters: 3170
+    manufacturer: Hoersch-Kessel Drive Inc.
+    armament:
+      - Quad turbolaser batteries
+      - Point-defense lasers
+
+  Droid Control Ship: !EntityShip
+    ship_class: Command Ship
+    length_meters: 3170
+    manufacturer: Hoersch-Kessel Drive Inc.
+    armament:
+      - Turbolaser batteries
+      - Droid command relays
+
+  C-9979 Landing Craft: !EntityShip
+    ship_class: Dropship
+    length_meters: 210
+    manufacturer: Haor Chall Engineering
+    armament:
+      - Laser cannons
+      - Missile racks
+
+  Sheathipede-class Transport Shuttle: !EntityShip
+    ship_class: Shuttle
+    length_meters: 20
+    manufacturer: Haor Chall Engineering
+    armament:
+      - Light laser cannons
+
+Mandalorians: !EntityName
+  Kom'rk-class Fighter/Transport: !EntityShip
+    ship_class: Gunship
+    length_meters: 68.7
+    manufacturer: MandalMotors
+    armament:
+      - Laser cannons
+      - Proton torpedo launchers
+
+  Gauntlet Fighter: !EntityShip
+    ship_class: Multi-role Fighter
+    length_meters: 68.7
+    manufacturer: MandalMotors
+    armament:
+      - Twin laser cannons
+      - Proton torpedoes
+
+  Fang Fighter: !EntityShip
+    ship_class: Starfighter
+    length_meters: 9.6
+    manufacturer: MandalMotors
+    armament:
+      - Laser cannons
+      - Advanced targeting systems
+
+  Basilisk War Droid (Legends): !EntityShip
+    ship_class: Assault Droid/Ship
+    length_meters: 6.3
+    manufacturer: Mandalorian clans (custom built)
+    armament:
+      - Blaster cannons
+      - Missile pods
+      - Vibroblades
+

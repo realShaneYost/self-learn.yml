@@ -105,7 +105,7 @@ def main(args):
 
     # NOTE:
     # So what about sorting? Any benefits to using a flat list? Yes!
-    #   -   Sorting is not linear and natural
+    #   -   Sorting is more linear and natural now
     #   -   I can pass this directly to any UI or report
     #   -   No need to sort nested structures and stitch results back together
 
@@ -134,8 +134,8 @@ def main(args):
     #           -   Plot ship sizes by fraction in this case
     #           -   Group by ship class
     #           -   Calculate averages, mins, etc more easily
-    #   -   Lastly, no extra logic need to unwind trees. In otherwords, everything becomes a row
-    #       of features which just re-emphasizes the above.
+    #   -   Lastly, no extra logic is needed to unwind trees. In otherwords, everything becomes a
+    #       row of features
 
     import pandas as pd
     df = pd.DataFrame([{
@@ -149,7 +149,7 @@ def main(args):
     # NOTE:
     # What about validation and testing? Yes!
     #   -   Allows for centralized quality checks
-    #   -   Greate for linting, CI/CD validation, or pre-export checks
+    #   -   Great for linting, CI/CD validation, or pre-export checks
     #   -   Schema validations are easier in flat form
 
     for ship in all_ships:
@@ -165,7 +165,7 @@ def main(args):
     print(ship_index["X-Wing (T-65B)"]["specs"].ship_class)
 
     # ---------------------------------------------------------------------------------------------
-    # So does this make our little yaml loader setup pointless over flat lists?
+    # So does this make our yaml loader classes setup pointless over flat lists? NO!
     # ---------------------------------------------------------------------------------------------
 
     # NOTE:
@@ -180,8 +180,8 @@ def main(args):
     # IT SUPPORTS CLEAN CODE SEPARATION!
     #
     # With my loader classes I can encapsulate behavior, validate data types, provide methods, and
-    # add new features. I'm essentially writing python objects, not sure for YAML deserialization
-    # of YAML to dict's. It opens the door for object behavior like ...
+    # add new features. I'm essentially writing python objects to cover more than just YAML
+    # deserialization of YAML to dict's. It opens the door for object behavior like ...
     #
     # if ship.has_proton_torpedoes()
 
@@ -211,8 +211,7 @@ def main(args):
     #         print(f"{ship['name']} ({ship['faction']}): {ship['specs'].ship_class}")
     #
     # By providing this above method I'm saying "I will model this richly, but I'll expose a flat
-    # view when I need performance , simplicity, or tabular tools.". This is the best of both 
-    # Worlds in my opinion.
+    # view when I need performance, simplicity, or tabular tools.".
     # WARN: Have not added to_flat_ship_list(self) to class. Just documenting the idea here.
 
 if __name__ == "__main__":
